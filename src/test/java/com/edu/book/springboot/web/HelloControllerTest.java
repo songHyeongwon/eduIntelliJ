@@ -17,8 +17,7 @@ public class HelloControllerTest {
 
     @Autowired
     private MockMvc mvc;
-//깃 잔디 테스트
-
+// 깃 잔디 2차 테스트
     @Test
     public void hello_반환() throws Exception {
         String hello = "Hello";
