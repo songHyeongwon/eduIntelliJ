@@ -10,7 +10,7 @@ public class SessionUser implements Serializable {
     private String name;
     private String email;
     private String picture;
-
+    //세션 객체
     public SessionUser(User user) {
         this.name = user.getName();
         this.email = user.getEmail();
